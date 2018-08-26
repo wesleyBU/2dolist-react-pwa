@@ -1,0 +1,100 @@
+.FormToDo {
+    padding: 0 10rem;
+    padding-top: 1rem;
+}
+
+.FormComponent {
+    width: 100%;
+    margin-bottom: 1rem;
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    font-family: arial;
+    font-size: 1em;
+    border-style: solid;
+    padding: .3rem 1rem;
+}
+
+.TitleInput {
+    text-align: center;
+    font-weight: bolder;
+    font-size: 1.3em;
+    border-width: 0 0 1px 0;
+}
+
+.DescriptionInput {
+    border-width: 1px 0;
+    height: 25rem;
+}
+
+
+
+/* To Do List */
+
+.ListTodo {}
+
+.ListTodoItem {
+    color: rgb(0, 0, 0);
+    display: flex;
+    cursor: pointer;
+}
+
+.ListTodoItemSinal {
+    display: block;
+    width: 1rem;
+    margin-right: .5rem;
+}
+
+.ListTodoItem:hover {
+    color: rgb(0, 0, 0)
+}
+
+.ToDoTitle {
+    white-space: nowrap;
+    margin: 0;
+    border-right: solid 1px #95958ab3;
+    padding-right: .3rem;
+    margin-right: .3rem;
+}
+
+.ToDoDescription {
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    margin: 0;
+}
+
+/* Extra small devices (portrait phones, less than 576px) */
+
+@media (max-width: 575.98px) {
+    .FormToDo {
+        padding: 0 1rem;
+        padding-top: 0rem;
+    }
+}
+
+/* Small devices (landscape phones, less than 768px) */
+
+@media (min-width: 576px) and (max-width: 767.98px) {
+    .FormToDo {
+        padding: 0 1rem;
+        padding-top: 0rem;
+    }
+}
+
+/* Medium devices (tablets, less than 992px) */
+
+@media (min-width: 768px) and (max-width: 991.98px) {
+    .FormToDo {
+        padding: 0 4rem;
+        padding-top: 1rem;
+    }
+}
+
+/* Large devices (desktops, less than 1200px) */
+
+@media (min-width: 992px) and (max-width: 1199.98px) {
+    .FormToDo {
+        padding: 0 4rem;
+        padding-top: 1rem;
+    }
+}

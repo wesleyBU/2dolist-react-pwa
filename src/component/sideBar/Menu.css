@@ -1,0 +1,71 @@
+.Menu{
+background-color: #505254;;
+height: 100%;
+width: 25%;
+transition-duration: .5s;
+z-index: 999;
+padding: 0 .7rem;
+}
+
+.list-group-item{
+    background-color: transparent;
+    color: rgb(255,255,255);
+}
+.list-group-item:hover{
+    background-color: rgba(0, 0, 0, 0.089);
+    color: rgb(255,255,255);
+    font-weight: 500;
+}
+.on-list{
+    background-color: rgb(69, 179, 124) !important;
+}
+/* Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) { 
+    .Menu{
+        position: fixed;
+        width: 80%;
+    }
+    .OpenMenu{
+        left: 0%;
+        transition-duration: .5s;
+        box-shadow: 20px 10px 37px 10px #0000003b;
+    }
+    
+    .CloseMenu{
+        left: -80%;
+        transition-duration: .5s;
+    }
+}
+
+/* Small devices (landscape phones, less than 768px) */
+@media (min-width: 576px) and (max-width: 767.98px) { 
+    .Menu{
+        position: fixed;
+        width: 50%;
+    }
+    .OpenMenu{
+        left: 0%;
+        transition-duration: .5s;
+        box-shadow: 20px 10px 37px 10px #0000003b;
+    }
+    
+    .CloseMenu{
+        left: -50%;
+        transition-duration: .5s;
+    }
+}
+
+/* Medium devices (tablets, less than 992px) */
+@media (min-width: 768px) and (max-width: 991.98px) { 
+    .Menu{
+        width: 30%;
+    }
+}
+
+/* Large devices (desktops, less than 1200px) */
+@media (min-width: 992px) and (max-width: 1199.98px) { 
+    .Menu{
+        width: 30%;
+    }
+
+}

@@ -1,0 +1,47 @@
+.MenuSlide{
+    background-color: #fff0;
+    height: 2.2rem;
+    width: 2.3rem;
+    padding: 0 .4%;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #ffffff1a;
+    cursor: pointer;
+    display: none;
+}
+.MenuSlide > span{
+    display: block;
+    background-color: #ececec;
+    height: .2rem;
+    width: 100%;
+    margin: 0.3rem 0;
+    border: none;
+}
+
+/* Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) { 
+    .MenuSlide{
+        display: block;
+    }
+}
+
+/* Small devices (landscape phones, less than 768px) */
+@media (min-width: 576px) and (max-width: 767.98px) { 
+    .MenuSlide{
+        display: block;
+    }
+}
+
+/* Medium devices (tablets, less than 992px) */
+@media (min-width: 768px) and (max-width: 991.98px) { 
+    .MenuSlide{
+        display: none;
+    }
+}
+
+/* Large devices (desktops, less than 1200px) */
+@media (min-width: 992px) and (max-width: 1199.98px) { 
+    .MenuSlide{
+        display: none;
+    }
+}

@@ -1,0 +1,6 @@
+main{
+    text-align: center;
+    overflow-y: auto;
+    min-height: 100%;
+    width: 100%;
+}
